@@ -1,9 +1,0 @@
----
-
-- name: create users
-  user:
-    name: "{{ item.name }}"
-    state: present
-    password: "{{ item.password }}"
-  when: ((item.name is defined and item.name) and (item.password is defined and item.password))
-  with_items: "{{ users_default }}"

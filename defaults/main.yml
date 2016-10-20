@@ -1,7 +1,0 @@
----
-
-users_default:
-  - name: foo
-    password: 123qwe
-  - name: bar
-    password: 123qwe
