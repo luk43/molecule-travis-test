@@ -9,6 +9,5 @@ docker:
       ansible_groups:
         - group1
 verifier:
-  name: testinfra
-  options:
-    n: 1
+#  name: testinfra  options:
+#    n: 1
