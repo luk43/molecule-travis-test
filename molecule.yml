@@ -8,6 +8,6 @@ docker:
       image_version: latest
       ansible_groups:
         - group1
-verifier:
+#  verifier:
 #  name: testinfra  options:
 #    n: 1
