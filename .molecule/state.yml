@@ -1,11 +1,8 @@
 ---
-converged: true
-created: true
+converged: null
+created: null
 default_platform: null
 default_provider: null
-driver: docker
-hosts:
-  user:
-    groups:
-    - group1
+driver: null
+hosts: {}
 multiple_platforms: null

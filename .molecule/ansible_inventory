@@ -1,4 +1,4 @@
-user ansible_connection=docker
+molecule_user ansible_connection=docker
 
 [group1]
-user
+molecule_user
